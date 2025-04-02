@@ -16,6 +16,6 @@ public class LibroModel {
     private String titulo;
     private int editoriales;
     private int fechaPublicacion;
-    private String auto;
+    private String autor;
 
 }
