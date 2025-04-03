@@ -14,7 +14,7 @@ public class LibroRepository {
 
     @PostConstruct
     public void init() {
-        listaLibros.add(new LibroModel(2, "9999-999","Spring in action", 1, 1997, "Manning"));
+        listaLibros.add(new LibroModel(2, "9999-999","Spring in action", "Alfaguara", 1997, "Manning"));
 
     }
 
