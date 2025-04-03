@@ -15,6 +15,9 @@ public class LibroRepository {
     @PostConstruct
     public void init() {
         listaLibros.add(new LibroModel(2, "9999-999","Spring in action", "Alfaguara", 1997, "Manning"));
+        listaLibros.add(new LibroModel(3, "978-1617294945", "Spring in Action", "Manning", 2020, "Craig Walls"));
+        listaLibros.add(new LibroModel(4, "978-1491950357", "Designing Data-Intensive Applications", "O'Reilly Media", 2017, "Martin Kleppmann"));
+        listaLibros.add(new LibroModel(5, "978-0132350884", "Clean Code", "Prentice Hall", 2008, "Robert C. Martin"));
 
     }
 
